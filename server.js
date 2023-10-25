@@ -139,7 +139,7 @@ function addEmployee() {
                   if (err) throw err;
                   console.log(`Successfully added ${first_name} ${last_name} into employee table!`)
                   viewEmployees();
-                  addEmployeePrompt();
+                  employeePrompt();
               })
       })
 }
