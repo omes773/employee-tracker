@@ -228,7 +228,7 @@ function updateEmployeeRole() {
                           }
                           return updateArray;
                         },
-                      name: "chosenRole"
+                      name: "newRole"
                   }
               ])
               .then(function ({ employee_id, newRole }) {
